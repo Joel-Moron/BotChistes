@@ -1,25 +1,31 @@
 [import](common.lg)
 
-# SendActivity_FNKsPJ()
-[Activity
-    Text = ${SendActivity_FNKsPJ_text()}
-]
-
-# SendActivity_FNKsPJ_text()
-- buscando chiste
-# SendActivity_RVugbH()
-[Activity
-    Text = ${SendActivity_RVugbH_text()}
-]
-
-# SendActivity_RVugbH_text()
-- ```
-${dialog.response.setup}
-${dialog.response.delivery}```
 # SendActivity_50pxKL()
 [Activity
     Text = ${SendActivity_50pxKL_text()}
 ]
 
 # SendActivity_50pxKL_text()
-- Resibi un error : ${dialog.api_response.content.message}
+- Recibí un error : ${dialog.api_response.content.message}
+# SendActivity_g6JvvO()
+[Activity
+    Text = ${SendActivity_g6JvvO_text()}
+]
+
+# SendActivity_g6JvvO_text()
+- Ocurrio un error : ${dialog.response.message}
+# SendActivity_PDjKSa()
+[Activity
+    Text = ${SendActivity_PDjKSa_text()}
+]
+
+# SendActivity_PDjKSa_text()
+- ```${dialog.response.setup}
+${dialog.response.delivery}```
+# SendActivity_rntbhU()
+[Activity
+    Text = ${SendActivity_rntbhU_text()}
+]
+
+# SendActivity_rntbhU_text()
+- ${dialog.response.joke}

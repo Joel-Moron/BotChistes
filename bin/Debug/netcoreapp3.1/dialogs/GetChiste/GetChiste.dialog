@@ -17,20 +17,13 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "FNKsPJ"
-          },
-          "activity": "${SendActivity_FNKsPJ()}"
-        },
-        {
           "$kind": "Microsoft.HttpRequest",
           "$designer": {
             "id": "8woL3z"
           },
           "resultProperty": "dialog.api_response",
           "method": "GET",
-          "url": "https://v2.jokeapi.dev/joke/Programming?lang=es&type=twopart"
+          "url": "https://v2.jokeapi.dev/joke/Any?lang=es"
         },
         {
           "$kind": "Microsoft.IfCondition",
@@ -57,11 +50,47 @@
               "value": "=dialog.api_response.content"
             },
             {
-              "$kind": "Microsoft.SendActivity",
+              "$kind": "Microsoft.IfCondition",
               "$designer": {
-                "id": "RVugbH"
+                "id": "KIWAnw"
               },
-              "activity": "${SendActivity_RVugbH()}"
+              "condition": "dialog.response.error==false",
+              "actions": [
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "THLRi8"
+                  },
+                  "condition": "dialog.response.type==\"twopart\"",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "PDjKSa"
+                      },
+                      "activity": "${SendActivity_PDjKSa()}"
+                    }
+                  ],
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "rntbhU"
+                      },
+                      "activity": "${SendActivity_rntbhU()}"
+                    }
+                  ]
+                }
+              ],
+              "elseActions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "g6JvvO"
+                  },
+                  "activity": "${SendActivity_g6JvvO()}"
+                }
+              ]
             }
           ]
         }

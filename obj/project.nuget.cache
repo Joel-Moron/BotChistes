@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rCULlCtJJW3MMreMg4cXfYCeVI3FzaeDJElcGsoFn42d3vK+woL0+YvpGeYNaMdiN54rzz2q803Pjc7giZea9g==",
+  "dgSpecHash": "/gJwKq52MtgiW8zrDxBW18Jut99W+RJWxO1zidUx2UPknSvE2MZtc3ImuYlgnZWI47Bb3nhkV3TO6CMFKomwiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Use\\source\\repos\\BotChistes\\BotChistes\\BotChistes.csproj",
+  "projectFilePath": "F:\\ChatsBots\\BotChistes\\BotChistes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Use\\.nuget\\packages\\adaptiveexpressions\\4.18.1\\adaptiveexpressions.4.18.1.nupkg.sha512",
     "C:\\Users\\Use\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",

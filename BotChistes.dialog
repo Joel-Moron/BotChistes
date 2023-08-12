@@ -82,6 +82,25 @@
           "dialog": "GetChiste"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "6n3ldZ",
+        "name": "saludo"
+      },
+      "intent": "saludo",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "N2KBHX"
+          },
+          "activityProcessed": true,
+          "dialog": "saludo"
+        }
+      ],
+      "entities": []
     }
   ],
   "generator": "BotChistes.lg",
@@ -92,6 +111,10 @@
       {
         "intent": "Chiste",
         "pattern": "Cuentame un chiste"
+      },
+      {
+        "intent": "saludo",
+        "pattern": "hola"
       }
     ]
   }

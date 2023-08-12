@@ -10118,17 +10118,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Use\\source\\repos\\BotChistes\\BotChistes\\BotChistes.csproj",
+      "projectUniqueName": "F:\\ChatsBots\\BotChistes\\BotChistes.csproj",
       "projectName": "BotChistes",
-      "projectPath": "C:\\Users\\Use\\source\\repos\\BotChistes\\BotChistes\\BotChistes.csproj",
+      "projectPath": "F:\\ChatsBots\\BotChistes\\BotChistes.csproj",
       "packagesPath": "C:\\Users\\Use\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Use\\source\\repos\\BotChistes\\BotChistes\\obj\\",
+      "outputPath": "F:\\ChatsBots\\BotChistes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Use\\source\\repos\\BotChistes\\BotChistes\\NuGet.Config",
+        "F:\\ChatsBots\\BotChistes\\NuGet.Config",
         "C:\\Users\\Use\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
