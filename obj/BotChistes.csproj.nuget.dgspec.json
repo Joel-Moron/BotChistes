@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ChatsBots\\BotChistes\\BotChistes.csproj": {}
+    "C:\\Users\\Academico\\Desktop\\my_chat_bot-master\\BotChistes\\BotChistes.csproj": {}
   },
   "projects": {
-    "F:\\ChatsBots\\BotChistes\\BotChistes.csproj": {
+    "C:\\Users\\Academico\\Desktop\\my_chat_bot-master\\BotChistes\\BotChistes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ChatsBots\\BotChistes\\BotChistes.csproj",
+        "projectUniqueName": "C:\\Users\\Academico\\Desktop\\my_chat_bot-master\\BotChistes\\BotChistes.csproj",
         "projectName": "BotChistes",
-        "projectPath": "F:\\ChatsBots\\BotChistes\\BotChistes.csproj",
-        "packagesPath": "C:\\Users\\Use\\.nuget\\packages\\",
-        "outputPath": "F:\\ChatsBots\\BotChistes\\obj\\",
+        "projectPath": "C:\\Users\\Academico\\Desktop\\my_chat_bot-master\\BotChistes\\BotChistes.csproj",
+        "packagesPath": "C:\\Users\\Academico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Academico\\Desktop\\my_chat_bot-master\\BotChistes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "F:\\ChatsBots\\BotChistes\\NuGet.Config",
-          "C:\\Users\\Use\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Academico\\Desktop\\my_chat_bot-master\\BotChistes\\NuGet.Config",
+          "C:\\Users\\Academico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,6 +28,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
         },
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,9 +1,16 @@
 [import](common.lg)
 
-# SendActivity_AJ8es0()
+# SendActivity_jB4PJM()
 [Activity
-    Text = ${SendActivity_AJ8es0_text()}
+    Text = ${SendActivity_jB4PJM_text()}
 ]
 
-# SendActivity_AJ8es0_text()
+# SendActivity_jB4PJM_text()
+- entonces, en que te puedo ayudar?
+# TextInput_Prompt_ooeKdp()
+[Activity
+    Text = ${TextInput_Prompt_ooeKdp_text()}
+]
+
+# TextInput_Prompt_ooeKdp_text()
 - hola, te puedo contar un chiste?

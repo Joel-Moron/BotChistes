@@ -59,7 +59,7 @@
           "$kind": "Microsoft.SendActivity",
           "$designer": {
             "id": "kMjqz1",
-            "comment": "It is recommended to show a message to the user when the bot does not know how to handle an incoming activity and provide follow up options or a help message."
+            "comment": ""
           },
           "activity": "${SendActivity_DidNotUnderstand()}"
         }
@@ -101,6 +101,24 @@
         }
       ],
       "entities": []
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "V2RNz0",
+        "name": "broma"
+      },
+      "intent": "broma",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "eh3KbU"
+          },
+          "activityProcessed": true,
+          "dialog": "broma"
+        }
+      ]
     }
   ],
   "generator": "BotChistes.lg",
@@ -115,6 +133,10 @@
       {
         "intent": "saludo",
         "pattern": "hola"
+      },
+      {
+        "intent": "broma",
+        "pattern": "que chistoso"
       }
     ]
   }

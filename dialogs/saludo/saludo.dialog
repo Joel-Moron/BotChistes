@@ -17,11 +17,71 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.IfCondition",
           "$designer": {
-            "id": "AJ8es0"
+            "id": "mcghk1",
+            "comment": ""
           },
-          "activity": "${SendActivity_AJ8es0()}"
+          "condition": "user.ifYes == null",
+          "actions": [
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "ooeKdp"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "prompt": "${TextInput_Prompt_ooeKdp()}",
+              "property": "user.ifYes"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "hwaee0"
+          },
+          "property": "dialog.confirmation",
+          "value": "= user.ifYes"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "4qbF8X"
+          },
+          "condition": "dialog.confirmation == 'si'",
+          "actions": [
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "iWgi9P"
+              },
+              "activityProcessed": true,
+              "dialog": "GetChiste"
+            },
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "eAp15J"
+              },
+              "property": "user.ifYes",
+              "value": " = null"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "jB4PJM"
+              },
+              "activity": "${SendActivity_jB4PJM()}"
+            }
+          ]
         }
       ]
     }

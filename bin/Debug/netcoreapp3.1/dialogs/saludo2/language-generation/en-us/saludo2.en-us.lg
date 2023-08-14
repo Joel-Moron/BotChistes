@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# ChoiceInput_Prompt_yUIgwC()
+[Activity
+    Text = ${ChoiceInput_Prompt_yUIgwC_text()}
+]
+
+# ChoiceInput_Prompt_yUIgwC_text()
+- te puedo contar un chiste
+# SendActivity_B43aK3()
+[Activity
+    Text = ${SendActivity_B43aK3_text()}
+]
+
+# SendActivity_B43aK3_text()
+- enntonces en que puedo ayudarte

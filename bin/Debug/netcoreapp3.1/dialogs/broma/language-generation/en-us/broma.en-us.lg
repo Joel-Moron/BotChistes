@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_yGJMDI()
+[Activity
+    Text = ${SendActivity_yGJMDI_text()}
+]
+
+# SendActivity_yGJMDI_text()
+- lo se lo se xd
